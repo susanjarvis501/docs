@@ -191,7 +191,8 @@ bugs.summary <- bugs.out$summary
 bugs.DIC <- bugs.out$DIC
 ```
 
-We can also plot the output
+We can also plot the output.
+
 ```R
 plot(bugs.out) # gives a summary plot of coefficients and credible intervals
 mcmcplot(bugs.out) # opens up a new window with a set of plots to evaluate mcmc chain convergence
